@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useEffect , useState} from "react"
-import tableStyle from "../common/styles/table.module.css"
+import tableStyle from "@/styles/Table.module.css"
 const Table = ({columns, colspan ,data}) => {
     return(
         <table className={tableStyle.table}>

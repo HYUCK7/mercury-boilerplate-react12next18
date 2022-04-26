@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import tableStyle from '../common/styles/table.module.css'
+import tableStyle from '@/styles/Table.module.css'
 import { todoActions } from '../../redux/reducers/todoReducer.ts'
 
 export default function AddTodo(){

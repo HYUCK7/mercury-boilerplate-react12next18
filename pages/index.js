@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect } from 'react';
 import Image from "next/image";
-import tableStyles from './common/styles/table.module.css'
+import tableStyles from '@/styles/Table.module.css'
 
 const Button = ({ onClick }) => (
   <button onClick={onClick}>현재 시간</button>

@@ -1,4 +1,4 @@
-import tableStyles from '../common/styles/table.module.css'
+import tableStyles from '@/styles/Table.module.css'
 import React, {useState, useEffect} from 'react'
 import axios from 'axios';
 const Table = ({columns, colspan, data}) =>{
