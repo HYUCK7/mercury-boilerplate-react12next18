@@ -88,7 +88,7 @@ export function Nav(){
                       break;
       case 'BMI':  window.location.href='/basic/bmi'
                       break;
-      case '게시판':  window.location.href='/board/list'
+      case '게시판':  window.location.href='/board/getArticles'
                       break;
       default: window.location.href='/'
                       break;

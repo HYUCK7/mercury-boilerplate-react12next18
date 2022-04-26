@@ -13,3 +13,14 @@ export const USER_UPDATE_FAIL = "USER_UPDATE_FAIL"
 export const USER_DELETE_REQUEST = "USER_DELETE_REQUEST"
 export const USER_DELETE_SUCCESS = "USER_DELETE_SUCCESS"
 export const USER_DELETE_FAIL = "USER_DELETE_FAIL"
+
+/**
+ * const userActions = {
+    JOIN: "JOIN",
+    LOGIN: "LOGIN",
+    USERS: "LIST",
+    PROFILE: "PROFILE",
+    MODIFY: "MODIFY",
+    REMOVE: "REMOVE"
+}
+ */

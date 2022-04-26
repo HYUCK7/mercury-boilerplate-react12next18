@@ -1,34 +1,33 @@
-import * as user from "../types"
+import * as T from "../types"
 
-export const addUser = user => {
+export const join = user => {
+    
     return {
-        type: UserType.USER_ADD_REQUSTED,
+        type: T.JOIN_REQUEST,
         payload: user
     }
 }
-
 export const login = loginInfo => {
-    alert('2 >> ' + JSON.stringify(loginInfo))
+    alert('2 >> '+JSON.stringify(loginInfo))
     return {
-        type: T.LOGIN_REQUSTED,
+        type: T.LOGIN_REQUEST,
         payload: loginInfo
     }
 }
-
+export const fetchUsers = () => {
+    return {
+        type: T.USER_FETCH_REQUEST
+    }
+}
 export const updateUser = user => {
-    return{
-        type: UserType.USER_UPDATE_REQUSTED,
-        payload:user
+    return {
+        type: T.USER_UPDATE_REQUEST,
+        payload: user
     }
 }
-export const fetchUser = () => {
-    return{
-        type: UserType.USER_FETCH_REQUSTED
-    }
-}
-export const deleteUser = user => {
-    return{
-        type: UserType.USER_DELETE_REQUSTED,
-        payload:user
+export const delUser = userid => {
+    return {
+        type: T.USER_DELETE_REQUEST,
+        payload: userid
     }
 }
